@@ -1,0 +1,1976 @@
+$color-blue: #0473aa;
+$color-light-blue: #00AAFF;
+$wp-primary: #0073aa;
+
+$box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15), 0 0 0 1px rgba(34, 36, 38, .15);
+
+@font-face {
+  font-family: 'email-customizer';
+  src: url('fonts/email-customizer.eot?6illk');
+  src: url('fonts/email-customizer.eot?6illk#iefix') format('embedded-opentype'),
+  url('fonts/email-customizer.ttf?6illk') format('truetype'),
+  url('fonts/email-customizer.woff?6illk') format('woff'),
+  url('fonts/email-customizer.svg?6illk#email-customizer') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="viwec-ctrl-icon-"], [class*=" viwec-ctrl-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'email-customizer' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.viwec-ctrl-icon-spacer:before {
+  content: "\e90f";
+}
+
+.viwec-ctrl-icon-1col:before {
+  content: "\e900";
+}
+
+.viwec-ctrl-icon-2cols:before {
+  content: "\e901";
+}
+
+.viwec-ctrl-icon-3cols:before {
+  content: "\e902";
+}
+
+.viwec-ctrl-icon-4cols:before {
+  content: "\e910";
+}
+
+.viwec-ctrl-icon-image:before {
+  content: "\e903";
+}
+
+.viwec-ctrl-icon-divider:before {
+  content: "\e904";
+}
+
+.viwec-ctrl-icon-button:before {
+  content: "\e905";
+}
+
+.viwec-ctrl-icon-order-detail:before {
+  content: "\e906";
+}
+
+.viwec-ctrl-icon-order-detail1:before {
+  content: "\e907";
+}
+
+.viwec-ctrl-icon-billing-address:before {
+  content: "\e908";
+}
+
+.viwec-ctrl-icon-order-total:before {
+  content: "\e909";
+}
+
+.viwec-ctrl-icon-social:before {
+  content: "\e90a";
+}
+
+.viwec-ctrl-icon-footer:before {
+  content: "\e90b";
+}
+
+.viwec-ctrl-icon-product:before {
+  content: "\e90c";
+}
+
+.viwec-ctrl-icon-shipping-address:before {
+  content: "\e90d";
+}
+
+.viwec-ctrl-icon-text:before {
+  content: "\e90e";
+}
+
+.viwec-ctrl-icon-phone:before {
+  content: "\e942";
+}
+
+.viwec-ctrl-icon-address-book:before {
+  content: "\e944";
+}
+
+.viwec-ctrl-icon-menu:before {
+  content: "\e9bd";
+}
+
+.viwec-ctrl-icon-payment-method:before {
+  content: "\e93f";
+}
+
+.viwec-ctrl-icon-order-subtotal:before {
+  content: "\e99a";
+}
+
+.viwec-ctrl-icon-coupon:before {
+  content: "\e911";
+}
+
+.viwec-ctrl-icon-post:before {
+  content: "\e946";
+}
+
+.viwec-ctrl-icon-abandoned-cart:before {
+  content: "\f108";
+}
+
+.viwec-ctrl-icon-order-note:before {
+  content: "\e912";
+}
+
+.viwec-ctrl-icon-hook:before {
+  content: "\e913";
+}
+
+.viwec-ctrl-icon-transfer:before {
+  content: "\e914";
+}
+
+.viwec-ctrl-icon-header:before {
+  content: "\e915";
+}
+
+[class^="viwec-ctrl-icon-"], [class*=" viwec-ctrl-icon-"] {
+  font-size: 30px;
+  color: inherit;
+}
+
+.viwec-get-pro-version {
+  background-color: #00adb5;
+  color: white;
+  padding: 10px;
+  display: block;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.viwec-get-pro-version:hover {
+  background-color: #00979e;
+  color: white;
+}
+
+.viwec-hidden {
+  display: none !important;
+}
+
+.viwec-relative {
+  position: relative;
+}
+
+.viwec-flex {
+  display: flex;
+}
+
+#wpcontent, #wpfooter {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+
+#screen-meta-links, #wpfooter {
+  display: none;
+}
+
+.handle-actions {
+  .handle-order-higher, .handle-order-lower {
+    display: none;
+  }
+}
+
+.postbox-header {
+  border: none !important;
+}
+
+
+#wpbody {
+  .wrap {
+    margin-left: 0;
+    padding-top: 10px;
+  }
+}
+
+#message, .notice.notice-warning, .notice.notice-error, .notice.notice-success {
+  position: fixed !important;
+  margin: 0;
+  right: 0;
+  z-index: 1000;
+  border: none;
+  bottom: 0;
+
+  p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+.viwec-flex {
+  display: flex;
+}
+
+#wpbody-content {
+  padding: 0;
+
+  #post-body-content {
+    margin-top: 52px;
+  }
+
+  #poststuff {
+    padding-top: 0;
+  }
+
+  #side-sortables {
+    display: none;
+  }
+
+  .wrap {
+    margin: 0;
+
+    .viwec-nav-bar {
+      position: fixed;
+      top: 32px;
+      left: 460px;
+      right: 281px;
+      background-color: white;
+      height: 38px;
+      line-height: 38px;
+      border-bottom: 1px solid #ccd0d4;
+      font-size: 0;
+      z-index: 9;
+
+      a:active, a:focus {
+        border: none;
+        box-shadow: none;
+      }
+
+      .viwec-nav-btn {
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+        border-right: 1px solid #ccc;
+        line-height: unset;
+        font-size: 14px;
+        color: black;
+        vertical-align: middle;
+        padding: 0 10px;
+
+        &:hover {
+          background-color: #dddddd;
+        }
+
+        .dashicons-controls-play {
+          transform: rotate(180deg);
+          margin-top: 9px;
+        }
+
+        .dashicons {
+          margin-top: 9px;
+        }
+      }
+    }
+
+    .wp-heading-inline {
+      display: none;
+      background: white;
+      position: fixed;
+      top: 0;
+      margin-left: 300px;
+      padding: 5px 20px;
+      margin-right: 280px;
+      right: 0;
+      left: 0;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .page-title-action {
+      display: none;
+      float: right;
+      margin-right: 280px;
+      border: none;
+      line-height: 32px;
+      background: white;
+      border-left: 1px solid #ccc;
+      border-radius: 0;
+      color: black;
+      top: 1px;
+      padding: 4px 20px;
+    }
+  }
+}
+
+form#post, .wp-heading-inline, #screen-options-wrap {
+  margin-left: 320px;
+  margin-top: -40px;
+}
+
+#titlewrap {
+  position: relative;
+  z-index: 99;
+
+  input#title {
+    border-radius: 0;
+    border: 1px solid #ddd;
+  }
+
+  .viwec-subject-quick-shortcode {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    background-color: white;
+    padding: 5px;
+
+    ul {
+      display: none;
+      position: absolute;
+      right: 0;
+      background: white;
+      padding: 10px;
+      margin: 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    li {
+      margin: 0;
+
+      &:hover {
+        background-color: #ddd;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+#viwec-email-builder.postbox {
+  border: none;
+  background-color: transparent;
+
+  .handlediv, .hndle.ui-sortable-handle {
+    display: none !important;
+  }
+
+  .inside {
+    padding: 0;
+    margin: 0;
+  }
+
+}
+
+#viwec-email-editor-container {
+  background-color: white;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .iris-picker, .iris-picker * {
+    box-sizing: content-box
+  }
+}
+
+#viwec-control-panel {
+  position: fixed;
+  width: 300px;
+  min-width: 300px;
+  top: 32px;
+  left: 160px;
+  height: 100%;
+  font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  z-index: 99;
+  //font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+  #viwec-components-list {
+    padding-top: 40px;
+
+    ul li:nth-child(odd) {
+      .info-content-popup {
+        left: -106px;
+      }
+    }
+
+    ul li:nth-child(even) {
+      .info-content-popup {
+        right: -6px;
+      }
+    }
+  }
+
+  #viwec-element-search {
+    position: fixed;
+    z-index: 9;
+    background-color: white;
+    padding: 0.5em calc(0.5em + 4px);
+    width: 292px;
+
+    .dashicons.dashicons-search {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+    }
+
+    .viwec-search {
+      width: 100%;
+    }
+  }
+
+  #viwec-component-name {
+    padding: 0.8em 0.5em;
+    font-weight: bold;
+  }
+
+  #viwec-custom-css {
+    padding: 10px 5px;
+
+    textarea {
+      width: 100%;
+    }
+  }
+
+  input, select {
+    border: 1px solid #bbb;
+    border-radius: 3px;
+  }
+
+  .vi-ui.menu {
+    font-size: 0.85rem;
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0;
+    border-top: none;
+
+    .item {
+      background-color: #eeeeee;
+      border-bottom: 1px solid #dddddd;
+    }
+
+    .active.item {
+      background-color: white;
+      font-weight: bold;
+      border-bottom: none;
+    }
+
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  ul li {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 0;
+
+    .viwec-pro-version {
+      .dashicons-lock {
+        position: absolute;
+        left: 10px;
+      }
+
+      .viwec-control-icon, .dashicons-lock {
+        color: #bbb;
+      }
+    }
+
+    .viwec-control-btn {
+      margin: 4px;
+      border: 1px solid #bbbbbb;
+      border-radius: 3px;
+      padding: 10px 0;
+      text-align: center;
+      color: #666666;
+      position: relative;
+      user-select: none;
+
+      &:hover {
+        box-shadow: 0px 0px 3px 2px #ddd;
+        cursor: pointer;
+        color: $color-light-blue;
+        border-color: #0af;
+      }
+
+      .viwec-control-icon {
+        height: 50px;
+        padding: 10px;
+      }
+
+      .viwec-ctrl-title {
+        color: inherit;
+      }
+
+      .viwec-unlock-notice {
+        background-color: #00979e;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        line-height: 7;
+        border-radius: 2px;
+
+        a {
+          color: white;
+        }
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  input[type=radio] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+
+    &::before {
+      background-color: transparent;
+      border: 1px solid $color-light-blue;
+      width: 18px;
+      height: 18px;
+      border-radius: unset;
+      margin: 3px 0 0 -2px;
+      padding: 2px;
+    }
+  }
+
+  //[class^="viwec-col-8"]:nth-child(even), [class*=" viwec-col-8"]:nth-child(even) {
+  .viwec-col-8:nth-child(even) {
+    .iris-picker {
+      //right: 0;
+    }
+  }
+
+  .viwec-col-8:nth-child(odd) {
+    .iris-picker {
+      //left: 0;
+    }
+  }
+
+  .viwec-col-4 {
+    width: 25%;
+  }
+
+  .viwec-col-8 {
+    width: 50%;
+  }
+
+  .viwec-col-16 {
+    width: 100%;
+
+    .viwec-form-group {
+      display: flex;
+      align-items: center;
+
+      label.viwec-control-label {
+        width: 50%;
+        white-space: normal;
+      }
+
+      div.input {
+        width: 50%;
+        flex-grow: 1;
+      }
+
+    }
+  }
+
+  .viwec-col-32 {
+    width: 100%;
+
+    .form-control {
+      margin: 0;
+    }
+  }
+
+
+  [class^="viwec-col-"], [class*=" viwec-col-"] {
+    vertical-align: top;
+  }
+
+  .viwec-inline-block {
+    display: inline-block;
+    vertical-align: bottom;
+
+    .form-control {
+      width: 100%;
+      border-radius: 3px;
+    }
+
+    input {
+      border-radius: 0;
+    }
+  }
+
+  .viwec-control-label {
+    white-space: nowrap;
+  }
+
+  .viwec-quick-shortcode {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: white;
+    color: #999;
+  }
+
+  .viwec-quick-shortcode-list {
+    position: absolute;
+    right: -1px;
+    background: white;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    z-index: 99;
+    display: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    li {
+      width: 100%;
+    }
+  }
+
+  .viwec-group-name {
+    display: block;
+    font-weight: bold;
+  }
+
+  .viwec-form-group {
+    position: relative;
+    margin-right: 3px;
+    margin-bottom: 10px;
+
+    input[type=text] {
+      padding-right: 25px;
+    }
+
+    .input {
+      padding-top: 3px;
+      position: relative;
+
+      .iris-picker {
+        position: absolute;
+        z-index: 99;
+      }
+
+      input[type=checkbox] {
+        width: 1rem;
+        float: right;
+        box-shadow: none;
+        margin-right: 0;
+      }
+    }
+
+    span.select2.select2-container.select2-container--default {
+      border: 1px solid #bbb;
+      border-radius: 3px;
+      margin-left: 1px;
+
+      .select2-selection.select2-selection--single {
+        border: none;
+      }
+
+      ul.select2-selection__rendered {
+        padding: 0;
+        margin-bottom: -3px;
+
+        li.select2-selection__choice {
+          margin: 3px;
+          width: auto;
+        }
+
+        input.select2-search__field {
+          margin: 0;
+          border: none;
+          padding-left: 3px;
+        }
+      }
+    }
+  }
+
+  [data-section=sample] {
+    select.viwec-samples {
+      width: 100%;
+      margin-bottom: 8px;
+      border-color: #bbb;
+    }
+
+    ul {
+      margin: 4px;
+
+      li {
+        width: 100%;
+      }
+    }
+  }
+
+  .viwec-ctrl-btn {
+    width: 100%;
+    margin: 0;
+    border-radius: 3px;
+    padding: .72em 1.5em;
+  }
+
+  .viwec-control-panel-fixed {
+    background-color: white;
+    box-shadow: $box-shadow;
+    margin-right: 1px;
+    height: 100%;
+    position: relative;
+
+    .vi-ui.tabs.menu {
+      margin: 0;
+      border: none;
+    }
+
+    .vi-ui.accordion.styled {
+      border-radius: unset;
+      box-shadow: none;
+      border-bottom: 1px solid #ddd;
+      //margin: 5px;
+      width: auto;
+
+      .title {
+        padding: 0.55em 0.3em;
+        border: none;
+      }
+
+      .content {
+        padding: 0.5em;
+      }
+
+      .section {
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+
+        .text_editor_header {
+          margin: 0;
+          padding: 0 !important;
+
+          .viwec-form-group {
+            margin: 0 !important;
+          }
+        }
+      }
+    }
+
+    .section {
+      .title {
+        background-color: #efefef;
+      }
+
+      .content.active {
+        padding: 0;
+        display: block;
+      }
+    }
+
+    .viwec-scroll {
+      position: absolute;
+      top: 40px;
+      bottom: 72px;
+      width: 100%;
+      //overflow-y: scroll;
+
+      .vi-ui.attached.tab {
+        height: 100%;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+      }
+    }
+
+    .viwec.dashicons-info {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+
+      &:hover .info-content-popup {
+        display: block;
+      }
+
+      &.red {
+        color: red;
+      }
+
+      .info-content-popup {
+        position: absolute;
+        top: -155px;
+        width: 260px;
+        text-align: left;
+        background: #f7feff;
+        padding: 5px;
+        border: 1px solid #bbb;
+        border-radius: 3px;
+        display: none;
+        color: #444444;
+        font-size: 13px;
+        font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+        line-height: 1.5;
+        z-index: 9;
+
+        br {
+          height: 5px;
+        }
+      }
+    }
+  }
+
+
+  .viwec-clear {
+    position: absolute;
+    top: 53.5%;
+    right: 4px;
+    transform: translateY(-50%);
+    background-color: #ccc;
+    color: black;
+    opacity: 0.6;
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  .viwec-sample-group .viwec-samples-style {
+    margin-top: 10px;
+  }
+
+}
+
+#viwec-email-editor-wrapper {
+  width: 100% !important;
+  min-width: 600px;
+  padding: 80px 0;
+  position: relative;
+  margin: auto;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .viwec-edit-bgcolor-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    span {
+      vertical-align: sub;
+      margin: 0;
+      border-radius: 0;
+    }
+
+    margin-bottom: 10px;
+    text-align: right;
+  }
+
+  #viwec-email-editor-content {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    min-height: 52px;
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+
+    span, a {
+      //display: inline-block;
+      text-decoration: none;
+      color: inherit;
+      vertical-align: top;
+    }
+
+    th, td {
+      border-style: solid;
+      border-width: 0;
+    }
+
+    p {
+      margin: 0;
+      font-size: inherit;
+      line-height: inherit;
+      word-break: break-word;
+    }
+
+    img {
+      vertical-align: middle;
+      max-width: 100%;
+    }
+
+    small {
+      display: block;
+    }
+
+    .viwec-block {
+      position: relative;
+
+      .viwec-layout-row {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        margin: auto;
+        width: 100% !important;
+      }
+
+      &:hover {
+        outline: 1px solid $color-light-blue;
+        z-index: 99 !important;
+
+        .viwec-layout-handle-outer {
+          .left, .right {
+            display: block;
+          }
+        }
+      }
+
+      .viwec-layout-inner {
+        position: relative;
+
+        &:hover .viwec-layout-handle-inner {
+          display: block;
+        }
+
+        .viwec-layout-handle-inner {
+          position: absolute;
+          top: -22px;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: $color-light-blue;
+          color: white;
+          font-size: 0;
+          display: none;
+
+          .dashicons {
+            font-size: 18px;
+            padding: 1px;
+
+            &:hover {
+              background-color: $color-blue;
+              cursor: pointer;
+            }
+          }
+
+          span {
+            vertical-align: middle;
+          }
+        }
+      }
+
+      &.moving {
+        outline: none;
+      }
+
+      &.viwec-block-focus, .viwec-block-focus, .viwec-element-focus {
+        outline: 1px solid $color-light-blue;
+        z-index: 9999 !important;
+      }
+
+      .viwec-template-block {
+        min-height: 50px;
+      }
+    }
+
+    .viwec-placeholder {
+      background-color: #ddd;
+      //border: 1px dashed #0082ea;
+      height: 22px;
+    }
+
+    .viwec-layout-handle-outer {
+
+      .left, .right {
+        position: absolute;
+        top: -1px;
+        background-color: $color-light-blue;
+        color: white;
+        //border: 1px solid #bbb;
+        display: none;
+
+        span {
+          display: block;
+          width: auto;
+          height: auto;
+        }
+      }
+
+      .left {
+        left: -22px;
+        border-right: none;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+      }
+
+      .right {
+        right: -24px;
+        border-left: none;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+      }
+
+      .dashicons {
+        font-size: 18px;
+        padding: 2px;
+
+        &.viwec-delete-row-btn {
+          font-size: 20px;
+          color: red;
+        }
+
+        &:hover {
+          background-color: $color-blue;
+          //background-color: #eee;
+          cursor: pointer;
+        }
+      }
+
+      span {
+        vertical-align: middle;
+      }
+
+    }
+
+    .viwec-column.viwec-column-placeholder {
+      position: relative;
+      outline: 1px dashed $color-light-blue;
+      //min-height: 1px;
+      height: 100%;
+    }
+
+    .viwec-column-sortable {
+      min-height: 22px;
+      max-width: 100%;
+      width: auto !important;
+    }
+
+    .viwec-column-control {
+      position: absolute;
+      top: -20px;
+      right: 0;
+      //transform: translateX(-50%);
+      background-color: $color-light-blue;
+      color: white;
+      z-index: 99999;
+      display: none;
+
+      .dashicons {
+        font-size: 18px;
+        line-height: 21px;
+
+        &:hover {
+          background-color: $color-blue;
+        }
+      }
+    }
+
+    .viwec-element-handle {
+      position: absolute;
+      top: -1px;
+      right: -1px;
+      display: none;
+      font-size: 0;
+
+      span:hover {
+        background-color: $color-blue;
+      }
+
+      .viwec-delete-element-btn, .viwec-duplicate-element-btn, .viwec-copy-element-btn {
+        color: white;
+        background-color: $color-light-blue;
+        vertical-align: top;
+      }
+
+      .viwec-copy-element-btn {
+        font-size: 18px;
+        line-height: 21px;
+      }
+
+      .viwec-duplicate-element-btn {
+        font-size: 16px;
+        line-height: 21px;
+      }
+    }
+
+    .viwec-element {
+      position: relative;
+      overflow: hidden;
+      max-width: 100%;
+      //width: inherit;
+
+      &:hover {
+        outline: 1px dashed $color-light-blue;
+        min-height: 18px;
+        z-index: 99;
+        cursor: pointer;
+
+        .viwec-element-handle {
+          display: block;
+        }
+      }
+    }
+
+    .viwec-menu-bar td {
+      width: 600px;
+      max-width: 100%;
+    }
+
+    .viwec-social {
+      td:not(:last-child) {
+        padding-right: 10px;
+      }
+    }
+
+    //Fix css
+    .viwec-button .viwec-text-button-edit {
+      display: none;
+    }
+
+    .viwec-column-sortable, .viwec-layout-row, .viwec-element, .viwec-button {
+      border-width: 0;
+      border-style: solid;
+    }
+
+    .viwec-sample-table {
+      width: 100%;
+      border-collapse: collapse;
+      padding: 0;
+      margin: 0;
+
+      td, th {
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #e5e5e5;
+      }
+    }
+
+    span.viwec-hook-name {
+      display: inline;
+      font-size: 12px;
+      color: #9e9e9e !important;
+      font-style: italic;
+      line-height: 1;
+      vertical-align: baseline;
+      font-weight: normal;
+    }
+
+    &.viwec-direction-rtl {
+      .viwec-price-width {
+        text-align: left !important;
+      }
+
+      .viwec-element {
+        direction: rtl;
+      }
+    }
+  }
+
+  #viwec-quick-add-layout {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+
+    .viwec-ctrl-title {
+      display: none;
+    }
+
+    .viwec-quick-add-layout-btn {
+      border-radius: 50%;
+      padding: 5px;
+      line-height: 1.15;
+      background-color: #ddd;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+
+      &:hover {
+        color: white;
+        background-color: $color-light-blue;
+        cursor: pointer;
+      }
+    }
+
+    [class^="viwec-ctrl-icon-"] {
+      font-size: 45px;
+    }
+
+    .viwec-layout-list {
+      display: none;
+      position: absolute;
+      top: 35px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      white-space: nowrap;
+
+      .viwec-control-btn {
+        display: inline-block;
+        padding: 10px;
+        opacity: 80%;
+
+        &:hover {
+          cursor: pointer;
+          color: #727272;
+          border-color: $color-light-blue;
+        }
+      }
+    }
+  }
+
+  .viwec-note {
+    display: block;
+    font-size: 12px;
+    color: #9e9e9e !important;
+    font-style: italic;
+    line-height: 1;
+    font-weight: normal;
+  }
+
+}
+
+#viwec-notice-box {
+  position: fixed;
+  left: 50%;
+  bottom: -50px;
+  padding: 10px;
+  transform: translateX(-50%);
+  background-color: #222222;
+  z-index: 9999;
+  color: white;
+  transition: bottom 500ms;
+}
+
+.viwec-column {
+  flex-grow: 1;
+  position: relative;
+  z-index: 9;
+
+  &:hover {
+    .viwec-column-control {
+      display: block !important;
+    }
+  }
+}
+
+input.form-control, select.form-control, .viwec-col-full.input {
+  width: 100%;
+}
+
+
+.wp-picker-container {
+  width: 100%;
+
+  .button.wp-color-result {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.viwec-is-dragging {
+  width: 80px !important;
+  height: 30px !important;
+  background-color: $color-light-blue !important;
+  color: transparent !important;
+  //border: 1px solid #dddddd;
+  //box-shadow: $box-shadow;
+  padding: 0 !important;
+  outline: none !important;
+  border-radius: 5px !important;
+  z-index: 999999 !important;
+  overflow: hidden;
+
+  * {
+    display: none !important;
+  }
+}
+
+#viwec-right-sidebar {
+  position: fixed;
+  top: 32px;
+  right: 0;
+  bottom: 0;
+  margin-right: 0 !important;
+  background-color: white;
+  box-shadow: $box-shadow;
+  margin-top: -1px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  width: 280px;
+
+  .viwec-setting-box {
+    padding: 10px;
+
+    .viwec-btn-group {
+      width: 100%;
+    }
+
+    .vi-ui.button {
+      padding: 8px;
+      line-height: 1.2;
+    }
+
+    .viwec-box-title {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .viwec-option-label {
+      display: block;
+      margin: 7px 0;
+    }
+
+    .select2-container {
+      border: 1px solid #bbb;
+      border-radius: 3px;
+      width: 100% !important;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+      min-width: auto;
+    }
+
+    li.select2-search {
+      margin: 0;
+    }
+
+    .select2-search__field {
+      width: auto !important;
+      margin: 0;
+    }
+
+    &:not(:last-child) {
+      border-bottom: 1px solid #bbbbbb;
+    }
+
+  }
+
+  textarea {
+    width: 100%;
+    border: 1px solid #bbbbbb;
+  }
+
+  .viwec-group-input {
+    input[type=text] {
+      margin-left: 0;
+      border-left: none;
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+  }
+
+  .viwec-subtotal-symbol {
+    line-height: 32px;
+    width: 120px;
+    text-align: center;
+    background-color: #ddd;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: 1px solid #bbb;
+  }
+
+  input[name=viwec_settings_subtotal] {
+    padding-left: 15px;
+  }
+
+  a.viwec-get-pro-version {
+    text-decoration: none;
+  }
+
+  .viwec-get-pro-version {
+    p {
+      margin: 0;
+      background: #ffbf49;
+      padding: 5px;
+      font-weight: 600;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+
+  .viwec-send-test-email-result {
+    display: none;
+    background: white;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10px;
+    box-shadow: 0px 1px 5px 1px #ccc;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  .viwec-success {
+    color: green;
+  }
+
+  .viwec-error {
+    color: red;
+  }
+
+  .viwec-send-test-email-btn {
+    margin-left: -6px;
+    border: 1px solid #bbb;
+    box-shadow: none !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 60px;
+  }
+
+  select, input[type=text] {
+    width: 100%;
+    border-color: #bbbbbb;
+    padding: 3px 5px;
+  }
+
+  .viwec-attachments-list {
+    margin-bottom: 10px;
+  }
+
+  .viwec-attachment-el {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    padding-right: 30px !important;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    a {
+      display: block;
+      overflow: hidden;
+    }
+
+    .viwec-remove-attachment {
+      position: absolute;
+      top: 50%;
+      right: 5px;
+      transform: translateY(-50%);
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
+
+#viwec-email-data {
+  .vi-ui.buttons {
+    width: 100%;
+
+    .button {
+      padding: 8px;
+      line-height: 1.2;
+    }
+  }
+}
+
+.viwec-fixed {
+  position: fixed;
+  top: 30px !important;
+  transition: top 2s linear;
+}
+
+.viwec-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.mce-container {
+  .mce-menu-item .mce-ico {
+    padding: 0 !important;
+  }
+
+  &.mce-menu.mce-menu-has-icons {
+    background-color: #dddddd !important;
+  }
+
+}
+
+#tinymce {
+  .mce-content-body {
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.wp-admin {
+
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #cecece;
+    border-radius: 20px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+
+
+.vi-ui.modals {
+  .vi-ui.modal > .content {
+    width: auto;
+  }
+
+  .vi-ui.modal > .actions {
+    height: 30px;
+  }
+
+  .viwec-view-btn-group {
+    float: right;
+    margin-top: -4px;
+
+    .button {
+      padding: 8px 16px;
+    }
+  }
+
+  .vi-ui.scrolling.modal {
+    margin: 3rem auto;
+  }
+
+  .vi-ui.modal {
+    width: auto;
+  }
+}
+
+.viwec-email-preview-content {
+  address {
+    font-style: normal;
+  }
+
+  p {
+    font-size: unset;
+  }
+}
+
+.viwec-mobile-preview {
+  #body_content {
+    & .viwec-responsive-min-width > table {
+      width: 300px;
+    }
+
+    .viwec-responsive {
+      width: 100% !important;
+    }
+
+    .viwec-responsive-padding {
+      padding: 0 !important;
+    }
+
+    .viwec-mobile-hidden {
+      display: none !important;
+    }
+
+    .viwec-responsive-center, .viwec-responsive-center p {
+      text-align: center !important;
+    }
+
+    .viwec-mobile-50 {
+      width: 50% !important;
+    }
+
+    .viwec-center-on-mobile p {
+      text-align: center !important;
+    }
+  }
+}
+
+
+#wpbody {
+  margin-left: 160px;
+}
+
+.folded {
+  #viwec-control-panel {
+    left: 36px;
+  }
+
+  #wpbody-content form#post {
+    margin-left: 160px;
+    box-sizing: border-box;
+  }
+
+  #wpbody-content .wrap .viwec-nav-bar {
+    left: 336px;
+  }
+}
+
+.viwec-admin-bar-hidden {
+  #wpadminbar, #adminmenuback, #adminmenuwrap {
+    display: none;
+  }
+
+  #viwec-control-panel {
+    top: 0;
+    left: 0;
+
+    .viwec-scroll {
+      bottom: 40px;
+    }
+  }
+
+  #viwec-right-sidebar {
+    top: 0;
+  }
+
+  #wpbody {
+    margin-left: 0;
+  }
+
+  #wpbody-content form#post {
+    margin-left: 320px;
+  }
+
+  &.folded {
+    #wpbody-content form#post {
+      margin-left: 280px;
+    }
+  }
+
+  #wpbody-content .wrap .viwec-nav-bar {
+    top: 0;
+    left: 300px;
+    z-index: 999;
+  }
+
+  #wpbody-content #post-body-content {
+    margin-top: 20px;
+  }
+
+
+  #viwec-main-actions {
+    margin-bottom: 0;
+  }
+}
+
+#viwec-overlay.active {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  z-index: 999;
+  opacity: 50%;
+}
+
+.vi-ui.dimmer {
+  z-index: 9999;
+}
+
+html[dir=rtl] {
+  #wpbody {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #viwec-control-panel {
+    left: auto;
+    right: 160px;
+  }
+
+  #viwec-right-sidebar {
+    left: 0;
+    right: auto;
+  }
+
+  form#post, .wp-heading-inline, #screen-options-wrap {
+    margin-right: 320px;
+    margin-left: auto;
+  }
+
+
+  .folded {
+    #viwec-control-panel {
+      left: auto;
+      right: 36px;
+    }
+
+    #wpbody-content form#post {
+      margin-left: 0;
+      box-sizing: border-box;
+    }
+  }
+
+  .viwec-order-detail.viwec-item-style-1 {
+    .viwec-p-name, .viwec-text-product {
+      text-align: right !important;
+    }
+  }
+
+
+  .viwec-admin-bar-hidden {
+
+    #viwec-control-panel {
+      right: 0;
+    }
+  }
+}
+
+#viwec-main-actions {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  margin-bottom: 32px;
+
+  button:focus {
+    outline: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .viwec-main-actions-inner {
+    background-color: #495157;
+    position: relative;
+  }
+
+  .viwec-actions-front {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 40px;
+
+    & > * {
+      display: table-cell;
+      //min-width: 40px;
+    }
+
+    .viwec-toggle-admin-bar {
+      font-size: 26px;
+      width: 38px;
+      height: 40px;
+      margin-top: 5px;
+      line-height: 40px;
+      color: #a4afb7;
+
+      &:hover {
+        color: white;
+        cursor: pointer;
+      }
+    }
+
+    .viwec-trash-post, .viwec-add-new, .viwec-duplicate-post, .viwec-exit-to-dashboard {
+      color: #a4afb7;
+      width: 35px;
+      text-align: center;
+
+      &:focus {
+        box-shadow: none;
+      }
+
+      &:hover {
+        color: white;
+      }
+
+      .dashicons {
+        font-size: 18px;
+      }
+    }
+
+    .viwec-exit-to-dashboard {
+      width: 40px;
+      color: red;
+      background-color: black;
+
+      i.dashicons.dashicons-arrow-left {
+        font-size: 26px;
+        width: 40px;
+        height: 30px;
+        margin-top: -5px;
+        margin-left: -2px;
+      }
+    }
+  }
+
+  .viwec-actions-back {
+    background-color: #556068;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    //height: 30px;
+    padding: 10px;
+    display: none;
+  }
+
+  .viwec-save-draft {
+    line-height: 30px;
+    border: none;
+    background-color: #495157;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+
+    &:hover {
+      background-color: #3d4449;
+      cursor: pointer;
+    }
+  }
+
+  #viwec-publishing-action {
+    padding: 5px 9px;
+    text-align: right;
+    white-space: nowrap;
+
+    * {
+      min-height: auto;
+    }
+
+    #publish, .viwec-show-sub-actions {
+      line-height: 2;
+      margin: 0;
+      border: none;
+      background-color: #39b54a;
+      color: white;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: #1f9c30;
+        cursor: pointer;
+      }
+    }
+
+    #publish {
+      padding: 3px 10px 1px;
+    }
+
+    .viwec-show-sub-actions {
+      padding: 3px 0 1px;
+      margin-left: -3px;
+
+      .dashicons.dashicons-arrow-up {
+        margin-top: 2px;
+
+        &:before {
+          margin-left: -2px;
+        }
+      }
+    }
+  }
+}
+
+.wp-core-ui .button.focus, .wp-core-ui .button:focus, .wp-core-ui .button-secondary:focus {
+  box-shadow: 0 0 0 1px #999999;
+}
+
+
+.wacv-explain {
+  font-size: 13px !important;
+  font-style: italic !important;
+  color: #999 !important;
+}
+
+.wacv-coupon-options {
+  border: 1px solid #bbb;
+  padding: 5px;
+  border-radius: 3px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.wacv.dashicons.dashicons-info {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+  &:before {
+    color: red;
+  }
+
+  &:hover {
+    .wacv-recover-button-notice {
+      display: block;
+    }
+  }
+}
+
+.wacv-recover-button-notice {
+  position: absolute;
+  top: -85px;
+  width: 200px;
+  text-align: left;
+  background: white;
+  padding: 5px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  display: none;
+  color: #444444;
+  font-size: 14px;
+  font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  line-height: 1.2;
+}
+
+.content[data-section=abandoned] {
+  ul li:nth-child(odd) {
+    .wacv-recover-button-notice {
+      left: -105px;
+    }
+  }
+
+  ul li:nth-child(even) {
+    .wacv-recover-button-notice {
+      right: -6px;
+    }
+  }
+}
+

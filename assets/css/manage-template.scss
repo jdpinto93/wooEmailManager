@@ -1,0 +1,56 @@
+.manage-column.column-type {
+  width: 15%;
+}
+
+#villatheme-support {
+  margin: 0 20px 60px 180px;
+  padding: 10px 20px;
+}
+
+.villatheme-support-auto-update-key {
+  margin-top: 20px;
+
+  fieldset {
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 20px;
+  }
+
+  legend {
+    h2 {
+      margin: 0;
+    }
+  }
+
+  p {
+    margin-top: 15px;
+  }
+
+  .villatheme-autoupdate-key-field {
+    width: 50%;
+    border: 1px solid #ccc;
+  }
+
+  button.button {
+    color: white;
+    padding: 0 20px;
+    font-weight: 600;
+
+    &.green {
+      background-color: #21ba45;
+      border: 1px solid #21ba45;
+
+    }
+
+    &.primary {
+      background-color: #2185d0;
+      border: 1px solid #2185d0;
+    }
+  }
+
+  .fields * {
+    font-size: 16px;
+    line-height: 2.2;
+  }
+}
